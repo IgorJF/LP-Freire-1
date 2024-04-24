@@ -1,12 +1,14 @@
-body{
-    color: black;
+body {
+    background-color: black;
+    display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    height: 100vh; 
 }
 
-h1{
-    justify-content: center;
-    text-align: center;
+h1 {
     color: white;
     font-size: 100px;
+    position: relative;
+    z-index: 1; 
 }
