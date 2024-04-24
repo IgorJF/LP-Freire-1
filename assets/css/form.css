@@ -38,13 +38,10 @@
     box-sizing: border-box; 
 }
 
-.button {
+button {
     text-align: right;
     justify-content: center;
     text-align: center;
-}
-
-.button input[type="submit"] {
     background-color: rgb(198, 140, 23);
     color: #fff;
     border: none;
@@ -53,8 +50,9 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-family: "InterBold";
+    text-transform: uppercase;
 }
 
-.button input[type="submit"]:hover {
+button:hover {
     background-color: rgb(109, 76, 9);
 }
