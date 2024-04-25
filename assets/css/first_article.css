@@ -30,7 +30,7 @@
     font-family: "InterBlack";
     z-index: 1;
     position: absolute; 
-    top: 30%; 
+    top: 250px; 
     right: 700px;
     margin-left: 50px;
     transform: translateY(-50%);
