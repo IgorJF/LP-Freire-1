@@ -21,7 +21,12 @@
 .form-mentoria {
     width: 100%;
     max-width: 400px; 
-    margin-left: 210px;
+    z-index: 1;
+    position: absolute; 
+    top: 460px; 
+    right: 870px;
+    transform: translateY(-50%);
+    text-align: center;
 }
 
 .form {

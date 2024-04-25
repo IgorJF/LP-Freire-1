@@ -21,6 +21,7 @@
 .third-article {
     background: #000000;
     padding: 20px;
+    position: relative;
 }
 
 .third-flex{
@@ -29,18 +30,27 @@
     position: relative;
 }
 
-.tooth-text{
+.tooth-text {
     color: white;
     font-size: 40px;
     font-family: "InterBold";
+    z-index: 1;
+    position: absolute; 
+    top: 20%; 
+    left: 650px;
+    transform: translateY(-50%);
 }
 
-.protes-image{
+.protes-image {
     width: 500px;
     height: 300px;
     object-fit: cover;
-    margin-top: 80px;
+    position: absolute; 
+    top: 40%; 
+    left: 800px; 
+    z-index: 1; 
 }
+
 
 .tooth-container{
     display: flex;
@@ -48,8 +58,7 @@
 }
 
 .tooth-image{
-   width: 800px;
-   height: 534px;
+   margin-left: -20px;
 }
 
 /* .seta-image {

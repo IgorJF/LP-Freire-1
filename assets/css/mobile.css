@@ -1,107 +1,55 @@
-/* Primeiro Article */
-@media screen and (max-width: 768px) {
-    .first-article {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    .welcome-image {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80%;
+        max-width: 400px;
+    }
+
+    .title {
+        font-size: 40px;
+        right: auto;
+        left: auto;
+        text-align: center;
+    }
+
+    .description {
+        font-size: 14px;
+        right: auto;
+        left: auto;
         text-align: center;
     }
 
     .form-mentoria {
-        max-width: 100%;
+        top: auto;
+        right: auto;
+        left: auto;
+        width: 80%;
+        max-width: 400px;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 20px;
     }
 
-    .welcome-image {
-        width: 100%;
-        height: auto;
-    }
-
-    .title {
-        font-size: 30px;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-
-    .description {
-        font-size: 16px;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-
-    .welcome-text {
-        margin-right: 50px;
-    }
-}
-
-@media screen and (max-width: 768px) {
     .second-article {
-        flex-direction: column;
-        align-items: center;
+        padding: 30px;
+    }
+
+    .third-article {
         padding: 20px;
     }
 
-    .benefits {
-        font-size: 20px;
-    }
-
-    .benefits-text {
-        margin-top: 30px;
-    }
-
-    .benefits-list {
-        margin-left: 0;
-        font-size: 12px;
-        justify-content: center;
+    .tooth-text {
+        font-size: 24px;
+        left: auto;
         text-align: center;
     }
 
-    .benefits-image {
-        width: 70%;
-        margin-top: 30px;
-    }
-}
-
-/* Terceiro Article */
-@media screen and (max-width: 768px) {
-    .third-flex {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .tooth-text {
-        margin-top: 30px;
-    }
-
-    .tooth-image {
-        width: 100%;
-        height: auto;
-        margin-top: 30px;
-    }
-
     .protes-image {
-        width: 100%;
-        height: auto;
-        margin-top: 50px;
-    }
-
-    .description-tooth{
-        font-size: 26px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .footer {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .social-icons {
-        margin-left: 0;
-        margin-top: 20px;
+        width: 80%;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
