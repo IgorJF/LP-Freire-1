@@ -1,0 +1,77 @@
+/* Primeiro Article */
+@media screen and (min-width: 769px) and (max-width: 1100px) {
+    .first-article {
+        flex-direction: row; 
+        align-items: center;
+    }
+
+    .welcome-text {
+        margin-right: 0; 
+        margin-left: 50px; 
+    }
+
+    .form-mentoria {
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .welcome-image {
+        width: 70%; 
+        margin-top: 30px; 
+    }
+
+    .title {
+        font-size: 35px; 
+    }
+
+    .description {
+        font-size: 20px; 
+    }
+}
+
+/* Segundo Article */
+@media screen and (min-width: 769px) and (max-width: 1100px) {
+    .second-article {
+        padding: 70px; 
+    }
+
+    .benefits-text {
+        margin-top: 100px; 
+    }
+
+    .benefits {
+        font-size: 18px; 
+        margin-right: 20px;
+        margin-top: -30px;
+    }
+
+    .benefits-list {
+        margin-left: 30px; /* Restaurando a margem lateral */
+        font-size: 14px; 
+    }
+
+    .benefits-image {
+        width: 60%; 
+    }
+}
+
+/* Terceiro Article */
+@media screen and (min-width: 769px) and (max-width: 1100px) {
+    .third-flex {
+        justify-content: space-between; 
+    }
+
+    .tooth-text {
+        font-size: 30px;
+    }
+
+    .tooth-image {
+        width: 50%;
+        height: auto;
+    }
+
+    .protes-image {
+        width: auto; 
+        height: 250px;
+    }
+}
