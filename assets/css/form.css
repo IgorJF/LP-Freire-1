@@ -1,21 +1,6 @@
 @font-face {
-    font-family: InterBlack;
-    src: url(../fonts/static/Inter-Black.ttf);
-}
-
-@font-face {
     font-family: InterBold;
     src: url(../fonts/static/Inter-Bold.ttf);
-}
-
-@font-face {
-    font-family: InterRegular;
-    src: url(../fonts/static/Inter-Regular.ttf);
-}
-
-@font-face {
-    font-family: InterLight;
-    src: url(../fonts/static/Inter-Light.ttf);
 }
 
 .form-mentoria {
