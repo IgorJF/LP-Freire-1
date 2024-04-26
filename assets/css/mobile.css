@@ -85,19 +85,24 @@
         display: flex !important;
         flex-direction: column !important;
         position: relative !important;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
     }
 
     .tooth-image {
-        width: 500px;
+        width: 600px;
         margin-bottom: 400px;
+        margin-left: -120px;
+        position: static;
     }
 
     .tooth-text {
-        margin-left: -650px;
-        font-size: 12px;
-        margin-right: 300px;
+        margin-left: -600px;
+        font-size: 16px;
+        margin-right: 200px;
         text-align: center;
-        margin-top: 450px;
+        margin-top: 500px;
         text-align: center !important;
         align-items: center !important;
         justify-content: center !important;
@@ -106,8 +111,8 @@
     .protes-image {
         width: 275px;
         height: 200px;
-        margin-left:40px;
-        margin-top: 700px;
+        margin-left: 100px;
+        margin-top: 800px;
         text-align: center !important;
         align-items: center !important;
         justify-content: center !important;
