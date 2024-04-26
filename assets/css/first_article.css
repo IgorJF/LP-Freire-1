@@ -29,6 +29,10 @@
     flex-direction: column !important;
 }
 
+.welcome-text .form-mentoria {
+    margin-left: 250px;
+}
+
 .title{
     font-size: 70px;
     color: white;
@@ -46,9 +50,9 @@
     color: white;
     font-family: "InterRegular";
     z-index: 1;
-    position: absolute; 
-    margin-top: 300px; 
-    margin-left: 300px;
+    position: static !important; 
+    margin-top: 20px; 
+    margin-left: 250px;
     text-align: center !important;
     align-items: center !important;
     justify-content: center !important;
