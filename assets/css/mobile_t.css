@@ -1,19 +1,9 @@
 /* Primeiro Article */
-@media screen and (min-width: 769px) and (max-width: 1100px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
     .first-article {
-        flex-direction: row; 
+        flex-direction: column;
         align-items: center;
         padding: 20px;
-    }
-
-    .welcome-text {
-        margin-right: 0; 
-        margin-left: 50px; 
-    }
-
-    .form-mentoria {
-        margin-left: auto;
-        margin-right: auto; 
     }
 
     .welcome-image {
@@ -22,57 +12,74 @@
     }
 
     .title {
-        font-size: 35px; 
+        font-size: 30px; 
+        text-align: center; 
+        margin-bottom: 20px; 
     }
 
     .description {
-        font-size: 20px; 
+        font-size: 25px; 
+        text-align: center; 
+        margin-bottom: 20px; 
+    }
+
+    .form-mentoria {
+        margin-bottom: 20px; 
+        width: 100%; 
     }
 }
 
 /* Segundo Article */
-@media screen and (min-width: 769px) and (max-width: 1100px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
     .second-article {
-        padding: 70px; 
+        padding: 20px; /* Reduzindo o padding para economizar espaço */
     }
 
     .benefits-text {
-        margin-top: 100px; 
+        text-align: center; /* Centralizando o texto */
     }
 
     .benefits {
-        font-size: 18px; 
-        margin-right: 20px;
-        margin-top: -30px;
+        font-size: 20px; 
+        margin-bottom: 10px; /* Espaçamento abaixo do texto */
     }
 
     .benefits-list {
-        margin-left: 30px; /* Restaurando a margem lateral */
-        font-size: 14px; 
+        font-size: 16px; 
+        text-align: center; /* Centralizando o texto */
+        margin-bottom: 10px; /* Espaçamento abaixo da lista */
     }
 
     .benefits-image {
-        width: 60%; 
+        width: 50%; 
+        margin: 20px auto; /* Centralizando a imagem e adicionando espaçamento */
     }
 }
 
 /* Terceiro Article */
-@media screen and (min-width: 769px) and (max-width: 1100px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .third-article {
+        padding: 20px; /* Reduzindo o padding para economizar espaço */
+    }
+
     .third-flex {
-        justify-content: space-between; 
+        flex-direction: column-reverse; /* Invertendo a ordem dos elementos */
+        align-items: center; /* Centralizando os elementos */
     }
 
     .tooth-text {
-        font-size: 30px;
+        font-size: 25px; 
+        text-align: center; /* Centralizando o texto */
+        margin-bottom: 20px; /* Espaçamento abaixo do texto */
     }
 
     .tooth-image {
-        width: 50%;
-        height: auto;
+        width: 50%; 
+        margin: 20px auto; /* Centralizando a imagem e adicionando espaçamento */
     }
 
     .protes-image {
-        width: auto; 
-        height: 250px;
+        width: 50%; 
+        margin: 20px auto; /* Centralizando a imagem e adicionando espaçamento */
     }
 }

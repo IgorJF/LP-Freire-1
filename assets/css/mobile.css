@@ -1,55 +1,130 @@
-/* Estilos para dispositivos móveis */
-@media only screen and (max-width: 768px) {
-    .welcome-image {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        width: 80%;
-        max-width: 400px;
+@media (max-width: 768px) {
+    .first-article {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .title {
-        font-size: 40px;
-        right: auto;
-        left: auto;
+        font-size: 30px;
+        position: static;
+        margin-top: 50px;
+        margin-right: 90px;
+        justify-content: center;
+        align-items: center;
         text-align: center;
     }
 
     .description {
+        position: static;
+        margin-top: 5px;
         font-size: 14px;
-        right: auto;
-        left: auto;
+        justify-content: center;
+        align-items: center;
         text-align: center;
+        margin-right: 25px;
     }
 
     .form-mentoria {
-        top: auto;
-        right: auto;
-        left: auto;
-        width: 80%;
-        max-width: 400px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .second-article {
-        padding: 30px;
-    }
-
-    .third-article {
-        padding: 20px;
-    }
-
-    .tooth-text {
-        font-size: 24px;
-        left: auto;
+        position: static;
+        margin-top: 80px;
+        max-width: 50%;
+        margin-left: 20%;
+        justify-content: center;
+        align-items: center;
         text-align: center;
     }
 
-    .protes-image {
-        width: 80%;
-        max-width: 300px;
-        margin-left: auto;
-        margin-right: auto;
+    .welcome-image {
+        margin-left: -50px;
+        width: 100%;
+        margin-top: -50px;
     }
+}
+
+@media (max-width: 768px) {
+    .second-article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits {
+        order: 1;
+        font-size: 18px;
+        margin-right: 10px ;
+    }
+
+    .benefits-list {
+        order: 2;
+        font-size: 14px;
+    }
+
+    .benefits-image {
+        order: 3;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .third-article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .third-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tooth-image {
+        order: 1;
+        width: 100%; /* Ajuste para caber na tela */
+        margin-left: -50px;
+    }
+
+    .tooth-text {
+        order: 2;
+        font-size: 18px; /* Ajuste conforme necessário */
+        position: static;
+        text-align: center; /* Centraliza o texto */
+        padding: 10px;
+        margin-right: 20%px;
+        margin-top: 10%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .protese-container img {
+        width: 180px;
+        height: 130px;
+    }
+
+    .protes-image{
+        margin-left: -600px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+}
+
+body{
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
