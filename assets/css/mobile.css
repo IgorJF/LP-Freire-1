@@ -66,6 +66,7 @@
         align-items: center !important;
         justify-content: center !important;
         margin-top: -100px;
+        margin-left: -30px;
     }
 
     .benefits-list {
@@ -91,9 +92,9 @@
     }
 
     .tooth-text {
-        margin-left: -600px;
+        margin-left: -640px;
         font-size: 12px;
-        margin-right: 320px;
+        margin-right: 340px;
         text-align: center;
         margin-top: 450px;
         text-align: center !important;
@@ -104,7 +105,7 @@
     .protes-image {
         width: 275px;
         height: 200px;
-        margin-left: 60px;
+        margin-left: 30px;
         margin-top: 700px;
         text-align: center !important;
         align-items: center !important;
