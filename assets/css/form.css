@@ -23,9 +23,8 @@
     max-width: 400px; 
     z-index: 1;
     position: absolute; 
-    margin-top: 400px; 
+    margin-top: 320px; 
     margin-left: 300px;
-    transform: translateY(-50%);
     text-align: center !important;
     align-items: center !important;
     justify-content: center !important;
