@@ -18,10 +18,10 @@
         margin-top: 50px;
     }
 
-    .description{
+    .description {
         margin-top: 10px;
         z-index: 1;
-        position: static !important; 
+        position: static !important;
         margin-left: 80px;
         margin-right: 80px;
         text-align: center !important;
@@ -34,7 +34,7 @@
         margin-right: 250px;
     }
 
-    .form-mentoria{
+    .form-mentoria {
         width: 300px;
     }
 
@@ -45,13 +45,13 @@
 }
 
 @media (max-width: 768px) {
-    .second-article{
+    .second-article {
         display: flex;
         flex-direction: column;
         position: relative;
     }
 
-    .benefits-image{
+    .benefits-image {
         width: 300px;
         height: auto;
         margin-left: 30px;
@@ -66,7 +66,8 @@
         align-items: center !important;
         justify-content: center !important;
         margin-top: -100px;
-        margin-left: -30px;
+        margin-left: -70px;
+        margin-right: -70px;
     }
 
     .benefits-list {
@@ -92,9 +93,9 @@
     }
 
     .tooth-text {
-        margin-left: -640px;
+        margin-left: -650px;
         font-size: 12px;
-        margin-right: 340px;
+        margin-right: 300px;
         text-align: center;
         margin-top: 450px;
         text-align: center !important;
@@ -105,13 +106,13 @@
     .protes-image {
         width: 275px;
         height: 200px;
-        margin-left: 30px;
+        margin-left:40px;
         margin-top: 700px;
         text-align: center !important;
         align-items: center !important;
         justify-content: center !important;
     }
-    
+
 }
 
 
@@ -127,9 +128,16 @@
 
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 body {
     background-color: black;
     justify-content: center;
     text-align: center;
     align-items: center;
+    overflow-x: hidden;
+    position: relative
 }
