@@ -24,6 +24,11 @@
     position: relative;
 }
 
+.welcome-text {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
 .title{
     font-size: 70px;
     color: white;
