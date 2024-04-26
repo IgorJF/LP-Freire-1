@@ -44,7 +44,7 @@
     z-index: 1;
     position: absolute; 
     margin-top: 300px; 
-    margin-left: 300px;
+    margin-left: 20%;
     transform: translateY(-50%);
     text-align: center;
 }
