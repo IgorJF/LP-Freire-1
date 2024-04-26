@@ -45,20 +45,15 @@
     width: 500px;
     height: 350px;
     object-fit: cover;
-    position: absolute; 
-    top: 40%; 
-    left: 800px; 
-    z-index: 1; 
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 400px;
+    z-index: 99;
 }
 
-
-.tooth-container{
-    display: flex;
-    flex-direction: column;
-}
 
 .tooth-image{
-   margin-left: -20px;
+   margin-left: -50px;
 }
 
 /* .seta-image {
