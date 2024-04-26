@@ -34,13 +34,11 @@
     color: white;
     font-family: "InterBlack";
     z-index: 1;
-    position: absolute; 
-    margin-top: 150px; 
-    margin-left: 100px;
-    margin-right: 600px;
+    position: static !important; 
+    margin-top: 120px; 
+    margin-left: 80px;
+    margin-right: -180px;
     text-align: center !important;
-    align-items: center !important;
-    justify-content: center !important;
 }
 
 .description{
@@ -61,6 +59,6 @@ body{
 }
 
 .welcome-image{
-    margin-left: 600px;
+    margin-left: -100px;
 }
 
