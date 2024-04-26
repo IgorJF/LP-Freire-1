@@ -56,7 +56,6 @@ body {
     }
 
     .image {
-        
         width: 500px;
     }
 }
@@ -79,9 +78,5 @@ body {
         font-family: "InterBold";
         margin-left: 100px;
         text-align: center;
-    }
-
-    .image {
-        
     }
 }
