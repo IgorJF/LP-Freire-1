@@ -15,6 +15,7 @@
         margin-right: 200px;
         margin-left: 200px;
         text-align: center !important;
+        margin-top: 50px;
     }
 
     .description{
@@ -86,7 +87,7 @@
 
     .tooth-text {
         margin-left: -650px;
-        font-size: 22px;
+        font-size: 20px;
         margin-right: 250px;
         text-align: center;
         margin-top: 500px;
