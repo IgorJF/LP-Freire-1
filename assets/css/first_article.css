@@ -32,7 +32,8 @@
     z-index: 1;
     position: absolute; 
     margin-top: 200px; 
-    margin-right: 500px;
+    margin-left: 100px;
+    margin-right: 600px;
     transform: translateY(-50%);
     text-align: center !important;
     align-items: center !important;
