@@ -9,7 +9,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    overflow-y: hidden;
 }
 
 .success {
@@ -47,12 +46,13 @@ body {
     .success {
         color: white;
         font-size: 30px;
-        position: relative;
+        position: static !important;
         z-index: 1;
         font-family: "InterBold";
-        margin-left: 150px;
-        margin-right: 150px;
+        margin-left: 100px;
+        margin-right: 100px;
         text-align: center;
+        margin-top: 100px !important;
     }
 
     .image {
@@ -78,5 +78,6 @@ body {
         font-family: "InterBold";
         margin-left: 100px;
         text-align: center;
+        margin-top: 100px;
     }
 }
