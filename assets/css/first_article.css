@@ -34,7 +34,9 @@
     margin-top: 200px; 
     margin-right: 500px;
     transform: translateY(-50%);
-    text-align: center;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 .description{
@@ -44,9 +46,11 @@
     z-index: 1;
     position: absolute; 
     margin-top: 300px; 
-    margin-left: 20%;
+    margin-left: 300px;
     transform: translateY(-50%);
-    text-align: center;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 body{
