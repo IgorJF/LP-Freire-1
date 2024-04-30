@@ -9,7 +9,7 @@
     }
 
     .title {
-        font-size: 24px;
+        font-size: 40px;
         z-index: 1;
         position: static !important;
         margin-right: 250px;
@@ -19,15 +19,26 @@
     }
 
     .description {
-        margin-top: 10px;
+        margin-top: 10px !important;
         z-index: 1;
         position: static !important;
-        margin-left: 80px;
-        margin-right: 80px;
+        margin-left: 200px;
+        margin-right: 200px;
         text-align: center !important;
         align-items: center !important;
         justify-content: center !important;
-        font-size: 12px;
+        font-size: 16px;
+    }
+
+    .call{
+        position: static !important;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+        font-size: 20px;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 10px;
     }
 
     .welcome-text .form-mentoria {
@@ -42,6 +53,11 @@
         margin-left: 10px;
         width: 500px;
     }
+
+    button{
+        font-size: 16px;
+        padding: 10px 10px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -52,14 +68,14 @@
     }
 
     .benefits-image {
-        width: 300px;
+        width: 500px;
         height: auto;
         margin-left: 30px;
         margin-top: 30px;
     }
 
     .benefits {
-        font-size: 14px;
+        font-size: 40px;
         position: static !important;
         z-index: 1;
         text-align: center !important;
@@ -71,13 +87,25 @@
     }
 
     .benefits-list {
-        font-size: 10px;
+        font-size: 24px;
         position: static !important;
         z-index: 1;
-        margin-left: -30px;
-        margin-right: -30px;
-        margin-top: -5px;
+        margin-left: -50px;
+        margin-right: -50px;
+        margin-top: 30px !important;
+        text-align: left;
     }
+
+    .benefits-description {
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+        font-size: 60px;
+        position: static !important;
+        margin-left: -80px;
+        margin-right: -80px;
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -98,11 +126,11 @@
     }
 
     .tooth-text {
-        margin-left: -580px;
-        font-size: 13px;
-        margin-right: 250px;
+        margin-left: -600px;
+        font-size: 20px;
+        margin-right: 230px;
         text-align: center;
-        margin-top: 500px;
+        margin-top: 600px;
         text-align: center !important;
         align-items: center !important;
         justify-content: center !important;
@@ -112,7 +140,7 @@
         width: 275px;
         height: 200px;
         margin-left: 100px;
-        margin-top: 800px;
+        margin-top: 920px;
         text-align: center !important;
         align-items: center !important;
         justify-content: center !important;

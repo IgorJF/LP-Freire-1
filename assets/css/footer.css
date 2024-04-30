@@ -1,14 +1,13 @@
 @font-face {
-    font-family: InterBlack;
-    src: url(../fonts/static/Inter-Black.ttf);
+    font-family: Europa;
+    src: url(../fonts/Europa-Bold/Europa-Bold.ttf);
 }
-
 
 .footer{
     display: flex;
     background: linear-gradient(#000000, #0b0b0b);
     color: white;
-    font-family: "InterBlack";
+    font-family: "Europa";
     font-size: 20px;
     justify-content: center;
     text-align: center;

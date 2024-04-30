@@ -6,35 +6,36 @@
     }
 
     .description {
-        margin-left: 150px;
-        margin-right: -100px;
-        font-size: 18px;
+        margin-left: 100px;
+        margin-right: -150px;
+        font-size: 20px;
     }
     
     .form-mentoria {
         width: 100%; 
         margin-left: 130px !important;
     }
+
+   
     
     /* Segundo Article */
     .benefits-image {
         width: 60%; 
         margin: 0 auto;
     }
-
-    .benefits {
-        font-size: 18px; 
-        margin-left: -100px;
-        margin-right: -50px;
-        z-index: 1;
-    }
-    
+ 
     .benefits-list {
         font-size: 16px; 
-        margin-left: -100px;
-        margin-right: -50px;
+        margin-left: -50px;
+        margin-right: -10px;
         z-index: 1;
-        margin-top: -5px;
+        margin-top: 10px;
+    }
+
+    .benefits-description {
+        font-size: 40px;
+        margin-left: -50px;
+        margin-right: -50px;
     }
 
     /* Terceiro Article */
@@ -45,7 +46,7 @@
     }
     
     .tooth-text {
-        font-size: 20px; 
+        font-size: 24px; 
         text-align: center; 
         margin-left: -200px;
     }
@@ -53,7 +54,7 @@
     .protes-image {
         width: 50%;
         height: 30%;
-        margin-left: 420px;
+        margin-left: 500px !important;
     }
 
     /* Footer */

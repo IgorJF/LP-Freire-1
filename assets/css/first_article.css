@@ -1,11 +1,11 @@
 @font-face {
-    font-family: InterBlack;
-    src: url(../fonts/static/Inter-Black.ttf);
+    font-family: Europa;
+    src: url(../fonts/Europa-Bold/Europa-Bold.ttf);
 }
 
 @font-face {
-    font-family: InterRegular;
-    src: url(../fonts/static/Inter-Regular.ttf);
+    font-family: Citrus;
+    src: url(../fonts/FontsFree-Net-c2537321-918e-4def-a018-cba7bcc0779d.ttf);
 }
 
 .first-article {
@@ -26,7 +26,7 @@
 .title{
     font-size: 70px;
     color: white;
-    font-family: "InterBlack";
+    font-family: "Citrus";
     z-index: 1;
     position: static !important; 
     margin-top: 120px; 
@@ -35,17 +35,36 @@
     text-align: center !important;
 }
 
+.call{
+    font-size: 24px;
+    color: white;
+    font-family: "Europa";
+    z-index: 1;
+    position: static !important; 
+    margin-top: 25px; 
+    margin-left: 80px;
+    margin-right: -180px;
+    text-align: center !important;
+    text-transform: uppercase;
+}
+
 .description{
     margin-top: 10px;
     color: white;
-    font-family: "InterRegular";
+    font-family: "Europa";
     z-index: 1;
     position: static !important; 
     margin-top: 20px; 
-    margin-left: 250px;
+    margin-left: 200px;
+    margin-right: -50px;
+    margin-bottom: 20px;
     text-align: center !important;
     align-items: center !important;
     justify-content: center !important;
+}
+
+b{
+    color: #DAA520;
 }
 
 body{

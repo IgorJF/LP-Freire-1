@@ -1,7 +1,6 @@
-
 @font-face {
-    font-family: InterBold;
-    src: url(../fonts/static/Inter-Bold.ttf);
+    font-family: Europa;
+    src: url(../fonts/Europa-Bold/Europa-Bold.ttf);
 }
 
 .third-article {
@@ -18,13 +17,17 @@
 
 .tooth-text {
     color: white;
-    font-size: 40px;
-    font-family: "InterBold";
+    font-size: 36px;
+    font-family: "Europa";
     z-index: 1;
     position: absolute; 
     top: 20%; 
     left: 650px;
     transform: translateY(-50%);
+}
+
+.tooth-description {
+    margin-top: 30px !important;
 }
 
 .protes-image {

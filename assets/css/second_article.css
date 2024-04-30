@@ -1,11 +1,11 @@
 @font-face {
-    font-family: InterBlack;
-    src: url(../fonts/static/Inter-Black.ttf);
+    font-family: Europa;
+    src: url(../fonts/Europa-Bold/Europa-Bold.ttf);
 }
 
 @font-face {
-    font-family: InterBold;
-    src: url(../fonts/static/Inter-Bold.ttf);
+    font-family: Citrus;
+    src: url(../fonts/FontsFree-Net-c2537321-918e-4def-a018-cba7bcc0779d.ttf);
 }
 
 .second-article {
@@ -23,18 +23,22 @@
     margin-right: 50px;
 }
 
-.benefits{
+.benefits-description{
+    font-family: "Europa";
     color: white;
-    font-family: "InterBlack";
-    font-size: 24px;
+    font-size: 60px;
+    margin-top: 20px;
+    text-transform: uppercase;
 }
 
 .benefits-list{
     color: white;
-    font-family: "InterBold";
+    font-family: "Europa";
     font-size: 20px;
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 60px;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 .benefits-list h3{
@@ -44,3 +48,8 @@
 .benefits-image{
     margin-right: 20px;
 }
+
+b{
+    color: #DAA520;
+}
+
