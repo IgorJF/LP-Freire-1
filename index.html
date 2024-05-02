@@ -22,8 +22,12 @@
     <!-- Primeiro Article -->
     <article class="first-article">
         <div class="welcome-text">
-            <h1 class="title">Você merece <b>sorrir sem medo!</b></h1>
-            <p class="call">Recupere seu <b>sorriso</b> e eleve sua autoestima agora!</p>
+            <p class="benefits-description"> <b>Sorria e se Alimente</b> com Confiança!</p>
+            <div class="benefits-list">
+                <h3>✅ Dentes permanentes e naturais.</h3>
+                <h3>✅ Fale e ria sem medo.</h3>
+                <h3>✅ Mastigue com facilidade.</h3>
+            </div>
             <p class="description">Preencha o cadastro que nosso time de especialistas vai entrar em contato para te
                 contar como é fácil e acessível ter o <b>sorriso</b> dos seus sonhos!</p>
             <div class="form-mentoria">
@@ -42,20 +46,16 @@
                 </section>
             </div>
         </div>
-        <img src="assets/img/header_def.png" alt="Bem-vindo" class="welcome-image">
+        <img src="assets/img/sorriso.png" alt="Sorriso" class="benefits-image">
     </article>
 
     <!-- Segundo Article -->
     <article class="second-article">
         <div class="benefits-text">
-            <p class="benefits-description"> <b>Sorria e Coma</b> com Confiança!</p>
-            <div class="benefits-list">
-                <h3>✅ Dentes permanentes e naturais.</h3>
-                <h3>✅ Fale e ria sem medo.</h3>
-                <h3>✅ Mastigue com facilidade.</h3>
-            </div>
+            <h1 class="title">Você merece <b>sorrir sem medo!</b></h1>
+            <p class="call">Recupere seu <b>sorriso</b> e eleve sua autoestima agora!</p>
         </div>
-        <img src="assets/img/sorriso.png" alt="Sorriso" class="benefits-image">
+        <img src="assets/img/header_def.png" alt="Bem-vindo" class="welcome-image">
     </article>
 
     <!-- Terceiro Article -->
@@ -83,6 +83,29 @@
             <a href="https://www.facebook.com/Dr.laurofreireoficial" target="_blank"><i class="fab fa-facebook"></i></a>
         </div>
     </article>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '781310447291035');
+        fbq('track', 'PageView');
+        fbq('track', 'ViewContent');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=781310447291035&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
 </body>
 
 </html>

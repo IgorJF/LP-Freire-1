@@ -9,21 +9,21 @@
     }
 
     .title {
-        font-size: 40px;
+        font-size: 50px;
         z-index: 1;
         position: static !important;
-        margin-right: 250px;
-        margin-left: 250px;
+        margin-right: -30px;
+        margin-left: -30px;
         text-align: center !important;
         margin-top: 50px;
     }
 
     .description {
-        margin-top: 10px !important;
+        margin-top: 30px !important;
         z-index: 1;
         position: static !important;
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 50px;
+        margin-right: 50px;
         text-align: center !important;
         align-items: center !important;
         justify-content: center !important;
@@ -36,17 +36,22 @@
         align-items: center !important;
         justify-content: center !important;
         font-size: 20px;
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: -50px;
+        margin-right: -50px;
         margin-top: 10px;
     }
 
     .welcome-text .form-mentoria {
-        margin-right: 250px;
+        margin-left: 50%;
+        margin-right: 50%;
     }
 
     .form-mentoria {
-        width: 300px;
+        width: 200px !important;
+        position: static !important;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
     }
 
     .welcome-image {
@@ -68,14 +73,14 @@
     }
 
     .benefits-image {
-        width: 500px;
+        width: 400px;
         height: auto;
         margin-left: 30px;
         margin-top: 30px;
     }
 
     .benefits {
-        font-size: 40px;
+        font-size: 30px;
         position: static !important;
         z-index: 1;
         text-align: center !important;
@@ -87,11 +92,11 @@
     }
 
     .benefits-list {
-        font-size: 24px;
+        font-size: 18px;
         position: static !important;
         z-index: 1;
-        margin-left: -50px;
-        margin-right: -50px;
+        margin-left: 10%;
+        margin-right: 10%;
         margin-top: 30px !important;
         text-align: left;
     }
@@ -100,10 +105,10 @@
         text-align: center !important;
         align-items: center !important;
         justify-content: center !important;
-        font-size: 60px;
+        font-size: 40px;
         position: static !important;
-        margin-left: -80px;
-        margin-right: -80px;
+        margin-left: 10%;
+        margin-right:  10%;
     }
     
 }
@@ -126,20 +131,24 @@
     }
 
     .tooth-text {
-        margin-left: -600px;
-        font-size: 20px;
-        margin-right: 230px;
-        text-align: center;
-        margin-top: 600px;
-        text-align: center !important;
-        align-items: center !important;
-        justify-content: center !important;
+        font-size: 16px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 500px;
     }
 
+    /* .protes-image {
+        width: 100%;
+        height: auto;
+        position: static;
+        margin-left: 0;
+        margin-top: 30px;
+    } */
+
     .protes-image {
-        width: 275px;
-        height: 200px;
-        margin-left: 100px;
+        width: 250px;
+        height: 175px;
+        margin-left: 110px;
         margin-top: 920px;
         text-align: center !important;
         align-items: center !important;

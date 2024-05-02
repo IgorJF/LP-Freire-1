@@ -2,66 +2,70 @@
 @media screen and (min-width: 769px) and (max-width: 1200px) {
     .welcome-image {
         width: 100%;
-        margin-left: 0; 
+        margin-left: 0;
     }
 
     .description {
-        margin-left: 100px;
-        margin-right: -150px;
+        margin-left: 10px;
+        margin-right: -60px;
         font-size: 20px;
     }
-    
+
     .form-mentoria {
-        width: 100%; 
-        margin-left: 130px !important;
+        width: 40%;
+        margin-left: 250px !important;
     }
 
-   
-    
+    button {
+        padding: 15px 15px;
+        font-size: 18px;
+    }
+
     /* Segundo Article */
     .benefits-image {
-        width: 60%; 
-        margin: 0 auto;
+        width: 50%;
+        height: 50%;
+        margin-top: 30px;
     }
- 
+
     .benefits-list {
-        font-size: 16px; 
-        margin-left: -50px;
+        font-size: 16px;
+        margin-left: 50px;
         margin-right: -10px;
         z-index: 1;
         margin-top: 10px;
     }
 
     .benefits-description {
-        font-size: 40px;
+        font-size: 30px;
         margin-left: -50px;
         margin-right: -50px;
     }
 
     /* Terceiro Article */
     .tooth-image {
-        width: 80%; 
-        margin-bottom: 200px; 
-        margin-left: -20px; 
+        width: 80%;
+        margin-bottom: 200px;
+        margin-left: -20px;
     }
-    
+
     .tooth-text {
-        font-size: 24px; 
-        text-align: center; 
+        font-size: 24px;
+        text-align: center;
         margin-left: -200px;
     }
-    
+
     .protes-image {
         width: 50%;
         height: 30%;
-        margin-left: 500px !important;
+        margin-left: 400px !important;
     }
 
     /* Footer */
     .footer {
         flex-direction: column;
-        align-items: center; 
-        padding: 20px 0; 
+        align-items: center;
+        padding: 20px 0;
     }
 
     .social-icons {
